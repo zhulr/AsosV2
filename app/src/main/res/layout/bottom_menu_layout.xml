@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/meeting_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E1E1E1"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+    <RelativeLayout
+        android:id="@+id/bottom_menu_icon1_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawablePadding="0dp"
+            android:drawableTop="@drawable/bottom_menu_icon1_pic_selector"
+            android:gravity="center"
+            android:text="@string/bottom_menu_icon1_tv_string"
+            android:textColor="@drawable/bottom_menu_text_color"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_menu_icon2_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableTop="@drawable/bottom_menu_icon2_pic_selector"
+            android:gravity="center"
+            android:text="@string/bottom_menu_icon2_tv_string"
+            android:textColor="@drawable/bottom_menu_text_color"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_menu_icon3_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableTop="@drawable/bottom_menu_icon3_pic_selector"
+            android:gravity="center"
+            android:text="@string/bottom_menu_icon3_tv_string"
+            android:textColor="@drawable/bottom_menu_text_color"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_menu_icon4_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableTop="@drawable/bottom_menu_icon4_pic_selector"
+            android:gravity="center"
+            android:text="@string/bottom_menu_icon4_tv_string"
+            android:textColor="@drawable/bottom_menu_text_color"
+            android:textSize="12sp" />
+    </RelativeLayout>
+</LinearLayout>

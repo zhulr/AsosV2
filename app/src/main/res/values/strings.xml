@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">安邦医疗救援</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 主页底部菜单文字 -->
+    <string name="bottom_menu_icon1_tv_string">救援</string>
+    <string name="bottom_menu_icon2_tv_string">自查</string>
+    <string name="bottom_menu_icon3_tv_string">资讯</string>
+    <string name="bottom_menu_icon4_tv_string">我的</string>
+</resources>
